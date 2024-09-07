@@ -1,0 +1,54 @@
+.sidenav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+.sidenav_logo{
+    width: 150px;
+    margin: 25px;
+
+}
+.sidenav_buttons{
+    display: flex;
+    flex-direction:column ;
+}
+.sidenav_button{
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    margin: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    background: 0;
+    border: 0;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 25px;
+
+
+}
+.sidenav_button > span{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.sidenav_button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.128);
+}
+.sidenav_more{
+    position: fixed;
+    bottom: 3px;
+
+}
+.myprofile{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+span{
+    margin-left: 8px;
+}

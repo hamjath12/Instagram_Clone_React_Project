@@ -1,0 +1,47 @@
+.sugesstion{
+    margin-top: 30px;
+    margin-right: 20px;
+
+}
+.sugesstion_title{
+    color: grey;
+    font-weight: bolder;
+}
+.sugesstion_left{
+    display: flex;
+}
+.avatar{
+    margin-right: 10px;
+}
+.user_info{
+    display: flex;
+    flex-direction: column;
+}
+.relation{
+    font-size: 12px;
+    color: grey;
+}
+.sugesstion_usename{
+    display: flex;
+    justify-content: space-between;
+}
+.sugesstion_usename{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.suesstion_button{
+    color: #0095f6;
+    background: 0;
+    border: 0;
+    font-weight: bold;
+
+}
+.suesstion_button:hover{
+    color: white;
+    cursor: pointer;
+}
+.username{
+    font-weight: 600;
+    font-size: 14px;
+}
